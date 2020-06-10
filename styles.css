@@ -1,7 +1,8 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .top-container {
@@ -10,28 +11,130 @@ body {
   position: relative;
 }
 
-.middle-container {
-  height: 200px;
-  width: 200px;
-  background-color: red;
-}
-
-.bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
-}
-h1 {
-  margin: 0;
-}
-
 .top-cloud {
   position: absolute;
-  right: 30%;
+  right: 25%;
   top: 35px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 30%;
+  left: 25%;
+}
+
+.middle-container {
+  margin: 100px 0 100px 0;
+}
+
+.profile-picture {
+  width: 15%;
+}
+
+.profile-description {
+  margin: 16px auto 16px auto;
+  width: 40%;
+}
+
+.skill-row {
+  display: inline-block;
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+
+.first-skill-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.second-skill-image {
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+
+.programming-description {
+}
+
+.bottom-container {
+  background-color: #ffe8df;
+}
+
+.contact-me-description {
+  margin: 16px auto 16px auto;
+  width: 40%;
+}
+
+.bottom-copyright {
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  color: #8B8685;
+}
+
+.hr {
+  margin: 30px auto 30px auto;
+  width: 60px;
+  border-width: 6px;
+  border-style: dotted none none none;
+  border-color: #F1E5E3;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-weight: normal;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+a:hover {
+  color: #CCBBE4;
+}
+
+p {
+  line-height: 3;
+}
+
+.footer-link-container {
+  padding: 50px 0 30px 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 20px 0 20px;
+}
+
+.BUTTON_NVY {
+  background: #66BFBF;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+
+.icon-creator {
 }
